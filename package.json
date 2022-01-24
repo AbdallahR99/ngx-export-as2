@@ -1,0 +1,61 @@
+{
+  "name": "ngx-export-as",
+  "version": "1.13.0",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "html2pdf": "^0.0.11",
+    "html2pdf-jspdf2": "^0.1.2",
+    "html2pdf.js": "^0.10.1",
+    "i18n-xlsx": "^0.2.2",
+    "process": "^0.11.10",
+    "rxjs": "~7.4.0",
+    "tslib": "^2.3.1",
+    "util": "^0.12.4",
+    "xlsx": "^0.17.4"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.0.2",
+    "@angular/core": "^13.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnabil/ngx-export-as.git"
+  },
+  "keywords": [
+    "angular",
+    "export",
+    "pdf",
+    "typescript",
+    "ng",
+    "ngx",
+    "xls",
+    "xlsx",
+    "csv"
+  ],
+  "author": "Wassem Nabil <w.nabil@orangestudio.com> (http://arabianlolers.com)",
+  "bugs": {
+    "url": "https://github.com/wnabil/ngx-export-as/issues"
+  },
+  "homepage": "https://github.com/wnabil/ngx-export-as#readme",
+  "module": "fesm2015/ngx-export-as.mjs",
+  "es2020": "fesm2020/ngx-export-as.mjs",
+  "esm2020": "esm2020/ngx-export-as.mjs",
+  "fesm2020": "fesm2020/ngx-export-as.mjs",
+  "fesm2015": "fesm2015/ngx-export-as.mjs",
+  "typings": "ngx-export-as.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-export-as.d.ts",
+      "esm2020": "./esm2020/ngx-export-as.mjs",
+      "es2020": "./fesm2020/ngx-export-as.mjs",
+      "es2015": "./fesm2015/ngx-export-as.mjs",
+      "node": "./fesm2015/ngx-export-as.mjs",
+      "default": "./fesm2020/ngx-export-as.mjs"
+    }
+  },
+  "sideEffects": false
+}
