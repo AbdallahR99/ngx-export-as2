@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import html2canvas from 'html2canvas';
 import * as XLSX from 'xlsx';
-// import HTMLtoDOCX from 'html-to-docx';
 import html2pdf from 'html2pdf.js';
 import * as i0 from "@angular/core";
 window['html2canvas'] = html2canvas;
